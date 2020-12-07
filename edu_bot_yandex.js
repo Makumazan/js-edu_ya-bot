@@ -10,11 +10,10 @@
 
 let yaSearchTxt = document.getElementsByName("text")[0];
 let yaSearchBtn = document.querySelectorAll(".button_theme_websearch")[0];
-let words = ["Гобой","Флейта","Как звучит флейта","Балалайка","Фагот","Скрипка","Саксофон"];
-let word = words[getRandom(0,words.length)];
-
 // yaSearchTxt.value = "Гобой";
 // yaSearchBtn.click();
+let words = ["Гобой","Флейта","Как звучит флейта","Балалайка","Фагот","Скрипка","Саксофон"];
+let word = words[getRandom(0,words.length)];
 
 function getRandom(min,max){
     return Math.floor(Math.random()*(max-min)+min);
