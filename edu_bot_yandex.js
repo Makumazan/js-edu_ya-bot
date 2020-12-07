@@ -20,7 +20,7 @@ function getRandom(min,max){
     return Math.floor(Math.random()*(max-min)+min);
 }
 
-if (yaSearchBtn!=undefined){ // Проверка существования кнопки поиска google
+if (yaSearchBtn!=undefined){
     let i = 0;
     let timerId = setInterval(function(){
         yaSearchTxt.value = yaSearchTxt.value + word[i];
