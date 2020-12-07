@@ -37,8 +37,8 @@ if (yaSearchBtn!=undefined){ // Проверка существования кн
     for(let i=0; i<links.length; i++){
         let link = links[i]
         if(link.href.includes("xn----7sbab5aqcbiddtdj1e1g.xn--p1ai")){
-            //setTimeout(()=>{link.click();},1000);
-            link.click()
+            setTimeout(()=>{link.click();},1000);
+            //link.click()
             linkIsFound = true;
             break;
         }
